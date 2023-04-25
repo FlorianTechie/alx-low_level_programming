@@ -1,18 +1,20 @@
 #include <stdio.h>
 
 /**
-* main - entry point
-*
-* Return: always return 0
-*/
+ * main - Entry point
+ *
+ * Description: printing A-Z
+ *
+ * Return: Always 0 (Success)
+ */
+
 int main(void)
 {
-	char a;
+	char ch;
 
-	for (a = 'a'; a <= 'z'; a++)
-		putchar(a);
-		for (a = 'A'; a <= 'Z'; a++)
-			putchar(a);
-		putchar('\n');
+	for (ch = 'a'; ch <= 'z'; ch++)
+		putchar(ch);
+	putchar('\n');
+
 	return (0);
 }
